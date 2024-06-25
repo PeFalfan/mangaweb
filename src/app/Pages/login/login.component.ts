@@ -10,7 +10,9 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 })
 export default class LoginComponent {
 
- 
+  iniciarSesion() {
+    alert('Ingresar')
+  }
 
 
 }

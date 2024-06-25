@@ -53,6 +53,8 @@ export default class HomeComponent {
     this.router.navigate(['/carro'], navigationExtras);
   }
 
-
+  addedNotification() {
+    alert('Producto agregado al carro')
+  }
 
 }
